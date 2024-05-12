@@ -34,7 +34,7 @@ const Page = () => {
 
       <Carousel className=" w-full max-w-full overflow-hidden">
       <CarouselContent className="-ml-1">
-        {Array.from({ length: 5 }).map((_, index) => (
+        {Array.from({ length: 8 }).map((_, index) => (
           <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-1/3">
             <div className="p-1">
               <Card>
@@ -148,14 +148,7 @@ const Page = () => {
 
 
 
-       <Image
-              src="/head.png"
-              alt="Vercel Logo"
-              width={1000}
-              height={240}
-              priority
-            />
-
+   
 <Accordion type="single" collapsible>
   <AccordionItem value="item-1">
     <AccordionTrigger>Is it accessible?</AccordionTrigger>
